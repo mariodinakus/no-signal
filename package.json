@@ -1,0 +1,9 @@
+{
+  "name": "no-signal-observatory",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "NO SIGNAL — Internet disruption observatory",
+  "scripts": {"dev": "node local-server.js", "check": "node --check app.js && node --check api/overview.js && node --check api/country.js && node --check local-server.js && node tests/api.test.js"},
+  "engines": {"node": ">=20"}
+}
